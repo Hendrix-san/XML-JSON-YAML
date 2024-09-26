@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notaFiscal>
+	<Cabeçalho>
+		<UF>AM</UF>
+		<descricaoOpe>Nota Fiscal Emitida</descricaoOpe>
+		<numeroSerie>111</numeroSerie>
+		<numeroNota>001</numeroNota>
+		<dataHora>25.09.2024 16:15</dataHora>
+	</Cabeçalho>
+	
+	<Emitente>
+		<CNPJ>111111111</CNPJ>
+		<nome>Hendrix</nome>
+		<nomeFant>sei lá</nomeFant>
+		<inscEsta>000022</inscEsta>
+	</Emitente>
+	
+	<Destinatario>
+		<CNPJ>000022333</CNPJ>
+		<nome>Hendrix 2</nome>
+		<email>alguem@exemplo.com</email>
+		<endereco>
+			<logradouro>Não sei</logradouro>
+			<numero>50</numero>
+			<bairro>São algum</bairro>
+			<municip>Eirunepé</municip>
+			<UF>AM</UF>
+			<CEP>33333-333</CEP>
+			<pais>Brazil</pais>
+			<tel>9999999-9999</tel>
+		</endereco>
+	</Destinatario>
+	
+	<Item numero="1">
+		<produto>Água</produto>
+		<valor>100.00$</valor>
+		<quant>02</quant>
+	</Item>
+	<Item numero="2">
+		<produto>Coca</produto>
+		<valor>15.00$</valor>
+		<quant>08</quant>
+	</Item>
+	
+	<Rodape>
+		<valorTotal>0.00$</valorTotal>
+		<ICMS>0.00$</ICMS>
+	</Rodape>
+</notaFiscal>

@@ -1,0 +1,9 @@
+Sintaxe JSON
+
+É composta por duas estruturas:
+
+Coleção de pares "nome:valor"
+Estrutura que, nas linguagens de programação, pode ser representada por objetos, dicionário, hash table, array associativo, entre outros.
+
+Lista ordenada de valores
+Nas linguagens de programação, pode ser representada como um array, vetor, lista, sequência, entre outros.

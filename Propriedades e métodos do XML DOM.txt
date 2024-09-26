@@ -1,0 +1,19 @@
+Propriedades e métodos do XML DOM
+
+Vejamos as propriedades do XML DOM:
+
+    nodeName
+    nodeValue
+    parenteNode
+    childNodes
+    attributes
+
+E agora alguns dos métodos para o XML DOM disponíveis:
+
+    getElementsByTagName(name)
+    getAttributeNode(node)
+    appendChild(node)
+    removeChild(node)
+    createElement(name)
+    createTextNode(value)
+

@@ -1,0 +1,20 @@
+Por que utilizar XML?
+Como vimos, ao tratarmos de sistemas web, a aplicabilidade da XML é servir como formato de transmissão de dados.
+Nesse sentido, considerando que esse formato foi especificado para ser simples, de fácil leitura por humanos e computadores, temos a principal justificativa quanto à sua adoção em sistemas web.
+
+Além disso, podemos ainda mencionar as seguintes vantagens de utilização da XML:
+
+	1. XML é autodocumentado, ou seja, seu formato descreve sua estrutura, seus elementos e valores.
+    2. XML é independente de plataforma e linguagem de programação.
+    3. XML é facilmente interpretado pela maioria das linguagens de programação (nas quais normalmente utilizamos recursos chamados de “parsers”, responsáveis por interpretar a estrutura e os dados do documento).
+    4. XML é extensível. Logo, podemos tanto usar entidades criadas por outros quanto criar nossas próprias tags e atributos.
+    5. XML possui suporte a Unicode.
+    6. XML possui suporte à validação por meio de DTD e Schema.
+
+Convém também citar algumas desvantagens desse formato para a transmissão de dados por meio da internet em relação a outros disponíveis.
+Vamos conferir!
+
+1. Um documento XML possui a sintaxe detalhada e redundante quando comparada a outros formatos.
+2. Um documento XML não suporta arrays.
+3. Um documento XML é menos legível que outros formatos, como JSON e YAML.
+4. Um documento XML pode gerar arquivos grandes dada a sua sintaxe detalhada.

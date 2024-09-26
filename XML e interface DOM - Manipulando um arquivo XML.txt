@@ -1,0 +1,24 @@
+XML e interface DOM
+O DOM (Document Object Model) é uma interface de plataforma e linguagem neutra que permite que programas e scripts acessem e atualizem dinamicamente o conteúdo, a estrutura e o estilo de um documento (W3C, 2020).
+Utilizando a interface DOM, é possível manipular tanto documentos HTML quanto documentos XML.
+Em ambos, o documento, por meio desse objeto, é representado na forma de árvore.
+
+Manipulando um arquivo XML com a interface DOM
+O XML DOM é um padrão para obter, modificar, adicionar ou remover elementos XML.
+Por meio dele, é possível acessar todos os elementos de um documento XML.
+Utilizando o documento XML já apresentado e, novamente, disponibilizado a seguir, veja os dois passos do código no qual, utilizando Javascript, o arquivo em questão é manipulado.
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<correntistas>
+	 <conta agencia="0123-4">
+		<tipo>física</tipo>
+		<nome>José Maria</nome>
+		<numero>000.000-00</numero>
+	</conta>
+
+	<conta agencia="5678-9">
+		<tipo>jurídica</tipo>
+	 	<nome>José Maria SA</nome>
+		<numero>111.111-11</numero>
+	</conta>
+</correntistas>

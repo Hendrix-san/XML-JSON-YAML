@@ -1,0 +1,50 @@
+{
+	"Cabeçalho":{
+		"UF":"AM",
+		"DescricaoOperacao":"Emissão de uma nota fiscal",
+		"numeroSerie":12345,
+		"numeroNotaFiscal":67890,
+		"dataHora":"26-09-2024 15:50"
+	},
+	
+	"Emitente":{
+		"CNPJ":34343535,
+		"nome":"Hendrix SA",
+		"nomeFantasia":"Sei lá",
+		"inscEstadual":"Amazonas"
+	},
+	
+	"Destinatário":{
+		"CNPJ":5634435,
+		"nome":"Hendrix",
+		"email":"hendrix@gmail.com",
+		"endereço":{
+			"logradouro":"casa",
+			"numero":95,
+			"bairro":"Santo Antônio",
+			"municipio":"Eirunepé",
+			"UF":"AM",
+			"CEP":69880000,
+			"país":"BRASIL",
+			"tel":97984142233
+		}
+	},
+	
+	"Item":[
+		{
+			"produto": "Papel Higiênico",
+			"valor": 10.00,
+			"quantidade": 1
+		},
+		{
+			"produto": "Papel Alumínio",
+			"valor": 15.00,
+			"quantidade": 2
+		}
+	],
+	
+	"Rodape":{
+		"valorTotal":200.00,
+		"ICMS":400.00
+	}
+}

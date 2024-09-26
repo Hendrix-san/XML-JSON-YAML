@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+<p>Executando um teste...</p>
+<div id="teste">Os resultados aparecerão aqui.</div>
+<script>
+//teste
+//Cria um objeto Javacript
+var objtoJS   = {agencia: "5678-9", tipo: "física", nome: "Maria José", numero: "222.222-22"};
+
+//Converte o objeto Javascript em texto JSON
+var textoJson = JSON.stringify(objtoJS);
+
+//Armazenando os dados no navegador
+localStorage.setItem("stringJSON", textoJson);
+</script>
+<script>
+//Cria uma variável para receber o conteúdo armazenado com localStorage
+var jsonText = localStorage.getItem("stringJSON");
+//Converte em um objeto Javascript
+jsOBJ = JSON.parse(jsonText);
+
+document.getElementById("teste").innerHTML = 'Agência: ' + jsOBJ.agencia + '\ Tipo: ' + jsOBJ.tipo + '\ Nome: ' + jsOBJ.nome + '\ Número: ' + jsOBJ.numero;
+
+//Exibe o conteúdo do objeto JS com o alert
+alert('Agência: ' + jsOBJ.agencia + ' Tipo: ' + jsOBJ.tipo + ' Nome: ' + jsOBJ.nome + ' Número: ' + jsOBJ.numero);
+</script>
+</body>
+</html>

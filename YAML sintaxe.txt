@@ -1,0 +1,23 @@
+Sintaxe YAML
+
+Em termos de estrutura e sintaxe, a YAML tem por característica usar poucos caracteres estruturais a fim de permitir que os dados sejam exibidos de forma natural.
+Nesse sentido, a sintaxe de um arquivo YAML é composta por:
+
+   ¬Recuo/tabulação, usado como estrutura.
+   ¬Sinal de dois pontos (“:”), usado como separador do par “chave: valor”.
+   ¬Travessão, usado para a criação de listas de marcadores.
+   
+Formato YAML
+Podemos ver como YAML a mesma estrutura de dados já representada como XML e, posteriormente, como JSON:
+
+correntistas:
+    conta:
+    - agencia: 0123-4
+		tipo: física
+		nome: José Maria
+        numero: 000.000-00   
+    - agencia: 5678-9
+        tipo: jurídica
+        nome: José Maria SA
+        numero: 111.111-11
+		
