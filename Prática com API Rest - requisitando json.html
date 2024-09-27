@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <title>Requisições AJAX com JSON</title>
+</head>
+<body>
+	<div id="resultado"></div>
+</body>
+<script type="text/javascript">
+window.onload = (event) =>{
+	RequisAPI();
+};
+
+function RequisAPI(){
+	var xhttp = new XMLHttpRequest();
+	var url = "https://swapi.dev/api/people/"
+	xhttp.onreadystatechange = function(){
+		if(this.readyState == 4 && this.status == 200){
+			resposta(this.response);
+		}
+	};
+	xhttp.open("GET",url ,true);
+	xhttp.send();
+}
+
+function resposta(response){
+	var cont;
+	var Objeto = JSON.parse(response);
+	var mostrar;
+	var name = Objeto.results;
+	for (cont = 0; cont < name.length; cont ++){
+		mostrar += name[cont].name + "<br/>" + name[cont].gender;
+	}
+	document.getElementById('resultado').innerHTML = mostrar
+}
+
+</script>
+
+</html>
